@@ -1,0 +1,64 @@
+
+body{
+	font-family: 'Gotham', sans-serif;
+	color: #FFFFFF;
+	background: url(../images/marsspace.png) no-repeat fixed;
+	text-align: center;
+	overflow-x: hidden;
+	overflow-y: hidden;
+
+}
+
+h1 {
+	font-size: 70px;
+	font-weight: 900;
+	margin-top: -140px;
+}
+
+h2{
+	font-size: 200px;
+}
+
+#rover {
+	background-image: url(../images/rover.png);
+	position: absolute;
+	top:600px;
+	left: 20px;
+	width: 431px;
+	height: 300px;
+	left: 0px;
+}
+
+#overlay{
+	background-image: url(../images/night.png);
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 1;
+	z-index: 10;
+}
+
+.red{
+	background-color: #FF0000;
+}
+
+.white{
+	background-color: #FFFFFF;
+}
+
+.allClocks{
+	display: block;
+	margin: auto;
+	position: relative;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.clock {
+	padding-top: 10px;
+	font-size: 60px;
+}
